@@ -1,6 +1,6 @@
 
 print("================================")
-print("       DECODELABS CHATBOT       ")
+print("       CHATBOT       ")
 print("================================")
 
 print("Hello! I am your AI chatbot.")
@@ -21,6 +21,10 @@ while True:
     elif user_input == "bye" or user_input == "exit":
         print("Bot: Goodbye! Have a wonderful day.")
         break
+    elif user_input == "whats the weather like":
+        print("Bot: I am not sure about the weather right now. You can check a weather app for the latest updates.")
+        break
+    
 
     else:
         print("Bot: Sorry, I don't understand that yet.")
