@@ -24,11 +24,11 @@
 
 # Display a welcome message when the program starts.
 print("=" * 50)
-print("          WELCOME TO DECODEBOT")
+print("          WELCOME TO DEBOT")
 print("       Your Simple AI Virtual Assistant")
 print("=" * 50)
 
-print("\nHello! I am DecodeBot.")
+print("\nHello! I am DeBot.")
 print("I am here to have a simple conversation with you.")
 
 # Tell the user how to end the conversation.
@@ -63,7 +63,7 @@ while True:
     # the chatbot asks them to enter a message.
 
     if user_input == "":
-        print("DecodeBot: Please enter a message so we can talk.")
+        print("DeBot: Please enter a message so we can talk.")
 
 
     # --------------------------------------------------------
@@ -74,8 +74,8 @@ while True:
     # break immediately stops the while loop.
 
     elif user_input in ["bye", "goodbye", "exit", "quit"]:
-        print("DecodeBot: Goodbye! It was nice talking to you.")
-        print("DecodeBot: Have a wonderful day!")
+        print("DeBot: Goodbye! It was nice talking to you.")
+        print("DeBot: Have a wonderful day!")
         break
 
 
@@ -88,8 +88,8 @@ while True:
     elif user_input in ["hello", "hi", "hey", "good morning",
                         "good afternoon", "good evening"]:
 
-        print("DecodeBot: Hello there!")
-        print("DecodeBot: It is nice to meet you.")
+        print("DeBot: Hello there!")
+        print("DeBot: It is nice to meet you.")
 
 
     # --------------------------------------------------------
@@ -101,8 +101,8 @@ while True:
     elif user_input in ["how are you", "how are you doing",
                         "how is it going"]:
 
-        print("DecodeBot: I am doing great, thank you!")
-        print("DecodeBot: How can I help you today?")
+        print("DeBot: I am doing great, thank you!")
+        print("DeBot: How can I help you today?")
 
 
     # Recognize questions about the chatbot's name.
@@ -110,8 +110,8 @@ while True:
     elif user_input in ["what is your name", "who are you",
                         "your name"]:
 
-        print("DecodeBot: My name is DecodeBot.")
-        print("DecodeBot: I am a rule-based chatbot created")
+        print("DeBot: My name is DecodeBot.")
+        print("DeBot: I am a rule-based chatbot created")
         print("as part of DecodeLabs Project 1.")
 
 
@@ -120,8 +120,8 @@ while True:
     elif user_input in ["what can you do", "your purpose",
                         "what is your purpose"]:
 
-        print("DecodeBot: I can respond to predefined messages.")
-        print("DecodeBot: I can greet you, answer simple questions,")
+        print("DeBot: I can respond to predefined messages.")
+        print("DeBot: I can greet you, answer simple questions,")
         print("and have a basic conversation with you.")
 
 
@@ -130,7 +130,7 @@ while True:
     elif user_input in ["what is artificial intelligence",
                         "define ai", "what is ai"]:
 
-        print("DecodeBot: Artificial Intelligence, or AI, is")
+        print("DeBot: Artificial Intelligence, or AI, is")
         print("the field of creating computer systems that")
         print("perform tasks that normally require human-like")
         print("intelligence.")
@@ -141,8 +141,8 @@ while True:
     elif user_input in ["what is python", "define python",
                         "tell me about python"]:
 
-        print("DecodeBot: Python is a popular programming language.")
-        print("DecodeBot: It is known for its simple syntax and")
+        print("DeBot: Python is a popular programming language.")
+        print("DeBot: It is known for its simple syntax and")
         print("is widely used in AI, web development and data science.")
 
 
@@ -150,15 +150,15 @@ while True:
 
     elif user_input in ["thank you", "thanks", "thank you very much"]:
 
-        print("DecodeBot: You are very welcome!")
-        print("DecodeBot: Happy to help.")
+        print("DeBot: You are very welcome!")
+        print("DeBot: Happy to help.")
 
 
     # Respond when the user asks for help.
 
     elif user_input == "help":
 
-        print("\nDecodeBot: Here are some things you can ask me:")
+        print("\nDeBot: Here are some things you can ask me:")
         print("-----------------------------------------------")
         print("1. Hello")
         print("2. How are you?")
@@ -180,9 +180,9 @@ while True:
     # This prevents the program from stopping unexpectedly.
 
     else:
-        print("DecodeBot: I am sorry, I do not understand that yet.")
-        print("DecodeBot: Try asking me something else.")
-        print("DecodeBot: You can also type 'help' for suggestions.")
+        print("DeBot: I am sorry, I do not understand that yet.")
+        print("DeBot: Try asking me something else.")
+        print("DeBot: You can also type 'help' for suggestions.")
 
 
 # ------------------------------------------------------------
@@ -193,6 +193,6 @@ while True:
 # It confirms that the chatbot has successfully stopped.
 
 print("\n" + "=" * 50)
-print("       DECODEBOT SESSION ENDED")
+print("       DEBOT SESSION ENDED")
 print("       Thank you for chatting!")
 print("=" * 50)
